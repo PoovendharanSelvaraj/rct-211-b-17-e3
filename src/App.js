@@ -14,6 +14,28 @@ function App() {
     minValue: 5,
     maxValue: 15,
   });
+  const colorScheme = {
+    initial: "white",
+    red: "red",
+    yellow:"yellow",
+    orange:"orange",
+    green:"green",
+  }
+  const variant = {
+    solid:"solid",
+    outline:"outline",
+    ghost:"ghost",
+  }
+
+  const size = {
+    small : "sm",
+    medium: "md",
+    large: "lg",
+    extraLarge: "xl",
+  }
+  const onPageChange=(num)=>{
+      console.log(num)
+  }
   return (
     <div className="App">
       {/* DO NOT CHANGE the 5 lines below   */}
@@ -26,9 +48,9 @@ function App() {
       <br />
       {/* You can pass the required props as mentioned in the questions to
       check if the components are working properly */}
-      <Button />
+      <Button colorScheme={colorScheme} variant={variant}  size={size} />
       <br />
-      <Pagination />
+      <Pagination total={5} selected={1} onPageChange={onPageChange} />
     </div>
   );
 }

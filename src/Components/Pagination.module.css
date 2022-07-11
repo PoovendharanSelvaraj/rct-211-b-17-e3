@@ -1,0 +1,16 @@
+.pagination{
+    width: 200px;
+    margin: auto;
+}
+.pagination>div{
+    display: flex;
+}
+.pagination button:hover{
+    background-color: white;
+}
+.selected{   
+    border:none;
+    color:black;
+    font-size: large;
+    background-color: aqua;
+}

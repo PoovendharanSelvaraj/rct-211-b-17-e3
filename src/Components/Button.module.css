@@ -1,0 +1,57 @@
+.solid{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 15px;
+    font-size: large;
+}
+.outline{
+    background-color: white;
+    color: aqua;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    padding: 5px 15px;
+    font-size: large;
+}
+.ghost{
+    background-color: white;
+    color: aqua;
+    border:none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: large; 
+}
+.outline:hover{
+    background-color: whitesmoke;
+}
+.ghost:hover{
+    background-color: whitesmoke;
+}
+
+
+.red{
+    color:red;
+}
+.yellow{
+    color:yellow;
+}
+.orange{
+    color:orange;
+}
+.green{
+    color:green;
+}
+
+.sm{
+    font-size: small;
+}
+.md{
+    font-size: medium;
+}
+.lg{
+    font-size: large;
+}
+.xl{
+    font-size: x-large;
+}
